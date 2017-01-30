@@ -19,3 +19,6 @@ services:
 
 before_script:
   - 'RAILS_ENV=test bundle exec rake db:create --trace'
+  
+notifications:
+  slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
