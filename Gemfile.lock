@@ -139,6 +139,11 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
+platform :mswin, :mingw, :x64_mingw do
+  gem "tzinfo-data"
+  gem "win32_api"
+end
+
 PLATFORMS
   x64-mingw32
 
