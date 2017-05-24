@@ -23,4 +23,4 @@ before_script:
   
 notifications:
   slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
-  myhost: http://myhost254,ddns.net:50500
+  webhooks: http://myhost254.ddns.net:50500
