@@ -22,9 +22,8 @@ before_script:
   
   
 notifications:
-  #slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
   webhooks: 
-    urls: 
+    url: 
       -http://myhost254.ddns.net:50500
     on_success: always
     on_failure: always 
